@@ -13,9 +13,11 @@ import { ref } from 'vue';
 const currentCount=ref<number>(0)
 
 const incrementFunction=()=>{
+        //for increment
     currentCount.value++
 }
 const decrementFunction=()=>{
+    //for decrement
     if(currentCount.value>0)currentCount.value--
 }
 </script>
